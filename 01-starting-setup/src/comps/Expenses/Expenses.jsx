@@ -17,6 +17,8 @@ export const Expenses = (prop) => {
     <div>
       <ExpensesFilter selected={ filteredYear}  onSavedFilterData={ saveExpenseFilter }/>
       <Card className="expenses">
+        {prop.items.map() //built in JS array method
+        }
         <ExpenseItem
           title={prop.expenses[0].title}
           date={prop.expenses[0].date}

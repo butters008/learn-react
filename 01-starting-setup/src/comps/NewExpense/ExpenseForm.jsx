@@ -59,6 +59,7 @@ const ExpenseForm = (props) => {
     
     console.log(expenseData)
     props.onSaveExpenseData(expenseData)
+    //This part of the code was giving me an error, maybe look into it later or maybe not...
     // setUserInput(() => {
     //   return {
     //     title: '',
